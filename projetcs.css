@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    text-align: center; 
+    background-image: ("C:\Users\eunic\Downloads\kuromi\kuromi\gallery.png");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 150px;
+    
+}
+
+th, td {
+    border: 1px;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+.btn-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #fda0ce;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1; 
+}
+
+.btn-back:hover {
+    background-color:#eb72cc;
+}
+
+.buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1; 
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #967dbe;
+    color: white;
+    border: none;
+    border-radius: 444px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:#eb6eda;
+}
+
